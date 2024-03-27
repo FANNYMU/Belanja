@@ -1,0 +1,113 @@
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Warna latar belakang yang lebih cerah */
+}
+
+/* Container Styles */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff; /* Warna latar belakang kontainer */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading Styles */
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #555;
+    margin-bottom: 15px;
+}
+
+/* List Styles */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    background-color: #ffffff; /* Warna latar belakang item daftar */
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Link Styles */
+a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+/* Button Styles */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Add Link Styles */
+.add-link {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Dark mode styles */
+.dark-mode {
+    background-color: #333; /* Warna latar belakang mode gelap */
+    color: #fff; /* Warna teks pada mode gelap */
+}
+
+.dark-mode li {
+    background-color: #222; /* Warna latar belakang elemen <li> pada mode gelap */
+    color: #fff; /* Warna teks elemen <li> pada mode gelap */
+}
+
+/* Tombol keren (cool button) */
+.cool-button {
+    background-color: #343a40; /* Warna latar belakang tombol */
+    color: #fff; /* Warna teks pada tombol */
+    border: none; /* Hapus border */
+    padding: 10px 20px; /* Padding */
+    border-radius: 5px; /* Radius sudut */
+    cursor: pointer; /* Ubah cursor menjadi pointer saat digunakan */
+    font-size: 16px; /* Ukuran font */
+    transition: transform 0.2s ease, box-shadow 0.2s ease; /* Transisi transformasi dan bayangan */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Bayangan */
+}
+
+/* Saat tombol dihover */
+.cool-button:hover {
+    background-color: #23272b; /* Warna latar belakang saat dihover */
+    transform: translateY(-2px); /* Geser tombol ke atas */
+}
+
+/* Saat tombol ditekan */
+.cool-button:active {
+    background-color: #1d2124; /* Warna latar belakang saat ditekan */
+    transform: translateY(2px); /* Geser tombol ke bawah */
+}
+
+
